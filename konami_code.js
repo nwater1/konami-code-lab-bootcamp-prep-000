@@ -5,11 +5,11 @@ function init() {
   window.addEventListener("keydown", function(event) {
     var key = parseInt(event.detail || event.which)
     if (key === code[index]) {
-                index++
-                if (index === code.length) {
-                    alert("Congratulatory")
-                }
-            } else {
+        index++
+          if (index === code.length) {
+              alert("Congratulatory")
+          }
+        }else {
                 index = 0
             }
   
